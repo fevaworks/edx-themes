@@ -10,23 +10,19 @@ Starter theme for developing comprehensive theme on Open edX
 
 		$ sudo -u edxapp bash
 
-2. Create new folder on `/edx/app/edxapp/` called `themes`
+2. Move to the folder
 
-		$ mkdir /edx/app/edxapp/themes
-
-3. Move to that folder
-
-		$ cd /edx/app/edxapp/themes
+		$ cd /edx/app/edxapp
 
 4. Clone this repo
 
-		$ git clone https://github.com/zineschen/edx-theme.git iiiedu-theme
+		$ git clone https://github.com/fevaworks/edx-themes.git
 
 5. Make some changes in `lms.env.json` located in `/edx/app/edxapp/`. Then change some variables to this:
 
 		ENABLE_COMPREHENSIVE_THEMING: true,
-		COMPREHENSIVE_THEME_DIRS: ["/edx/app/edxapp/themes"],
-		DEFAULT_SITE_THEME: "iiiedu-theme",
+		COMPREHENSIVE_THEME_DIRS: ["/edx/app/edxapp/edx-themes"],
+		DEFAULT_SITE_THEME: "feva-theme",
 
 6. Back to ubuntu sudo users, and restart the edxapp to load new configuration.
 
@@ -35,7 +31,7 @@ Starter theme for developing comprehensive theme on Open edX
 
 7. Run the `update.sh` script. To apply the themes.
 
-		$ cd /edx/app/edxapp/themes/iiiedu-theme/
+		$ cd /edx/app/edxapp/themes/feva-theme/
 		$ sh update.sh
 
 
