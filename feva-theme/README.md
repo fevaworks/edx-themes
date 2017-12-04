@@ -14,10 +14,14 @@ Starter theme for developing comprehensive theme on Open edX
 
 		$ cd /edx/app/edxapp
 
-4. Clone this repo
+3. Clone this repo
 
 		$ git clone https://github.com/fevaworks/edx-themes.git
 
+4. If want to update the repository
+
+		$ git pull
+		
 5. Make some changes in `lms.env.json` located in `/edx/app/edxapp/`. Then change some variables to this:
 
 		ENABLE_COMPREHENSIVE_THEMING: true,
