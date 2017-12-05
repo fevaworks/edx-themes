@@ -12,9 +12,9 @@ Starter theme for developing comprehensive theme on Open edX
 
 2. Move to the folder
 
-		$ cd /edx/app/edxapp
+		$ cd /edx/app/edxapp/edx-themes
 
-3. Clone this repo
+3. Clone this repository
 
 		$ git clone https://github.com/fevaworks/edx-themes.git
 
@@ -35,7 +35,7 @@ Starter theme for developing comprehensive theme on Open edX
 
 7. Run the `update.sh` script. To apply the themes.
 
-		$ cd /edx/app/edxapp/themes/feva-theme/
+		$ cd /edx/app/edxapp/edx-themes/feva-theme/
 		$ sh update.sh
 
 
